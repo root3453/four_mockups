@@ -45,6 +45,18 @@ modelURLs.forEach((url, index) => {
     url,
     (gltf) => {
       const model = gltf.scene;
+
+
+    // 💡 Improve texture sharpness
+    model.traverse((child) => {
+      if (child.isMesh && child.material.map) {
+        child.material.map.anisotropy = renderer.capabilities.getMaxAnisotropy();
+        child.material.map.magFilter = THREE.LinearFilter;
+        child.material.map.minFilter = THREE.LinearMipMapLinearFilter;
+        child.material.map.needsUpdate = true;
+      }
+    });
+      
       const box = new THREE.Box3().setFromObject(model);
       const center = new THREE.Vector3();
       box.getCenter(center);
