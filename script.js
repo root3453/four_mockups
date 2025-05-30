@@ -29,10 +29,10 @@ loader.setDRACOLoader(dracoLoader);
 
 // === Model Setup ===
 const modelURLs = [
-  'https://file.garden/aDkw2WzQiQyHQO4K/m1n.glb',
-  'https://file.garden/aDkw2WzQiQyHQO4K/m2.glb',
-  'https://file.garden/aDkw2WzQiQyHQO4K/m3n2.glb',
-  'https://file.garden/aDkw2WzQiQyHQO4K/m4n.glb'
+  'https://file.garden/aDkw2WzQiQyHQO4K/Four_mockup/m1n.glb',
+  'https://file.garden/aDkw2WzQiQyHQO4K/Four_mockup/m2.glb',
+  'https://file.garden/aDkw2WzQiQyHQO4K/Four_mockup/m3n2.glb',
+  'https://file.garden/aDkw2WzQiQyHQO4K/Four_mockup/m4n.glb'
 ];
 
 const spacing = 12;
