@@ -36,7 +36,7 @@ const modelURLs = [
   'https://file.garden/aDkw2WzQiQyHQO4K/Four_mockup/m4n.glb'
 ];
 
-const spacing = 9;
+const spacing = 10;
 const models = [];
 const mouse = new THREE.Vector2();
 
