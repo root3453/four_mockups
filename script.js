@@ -29,7 +29,7 @@ loader.setDRACOLoader(dracoLoader);
 
 // === Model Setup ===
 const modelURLs = [
-  'https://file.garden/aDkw2WzQiQyHQO4K/m1nt.glb',
+  'https://file.garden/aDkw2WzQiQyHQO4K/m1n.glb',
   'https://file.garden/aDkw2WzQiQyHQO4K/m2.glb',
   'https://file.garden/aDkw2WzQiQyHQO4K/m3n2.glb',
   'https://file.garden/aDkw2WzQiQyHQO4K/m4n.glb'
